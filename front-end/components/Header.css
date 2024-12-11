@@ -1,0 +1,52 @@
+/* src/components/Header.css */
+header {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.nav a:hover {
+  color: #007bff;
+}
+
+.header-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.header-icons a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.header-icons a:hover {
+  color: #007bff;
+}
